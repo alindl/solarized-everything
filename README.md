@@ -2,10 +2,12 @@
 
 Resources and dotfiles to ensure, that most, if not all of your system is in
 
-✨ SOLARIZED DARK ✨
+✨ SOLARIZED DARK ✨  
 
-I'm obviously skipping the ones, where it's just in the settings. 
-(Intellij etc.)
+Instructions are based on Manjaro i3, including installation, but I'll drop
+some links to the repositories.
+I'm obviously skipping the ones, where it's easy to find in the settings. 
+(IntelliJ etc.)
 
 // TODO check `~/.Xresources` colors  
 // TODO use `~/.Xresources` colors
@@ -133,7 +135,11 @@ On your system, you can find this file in `~/.config/dunstrc`
 
 Install `spicetify-cli` and `spicetify-themes-git`  
 `yay -S spicetify-cli spicetify-themes-git` for Arch-based distros using `yay`  
-  
+
+Repositories:
+[spicetify-cli](https://github.com/khanhas/spicetify-cli)
+[spicetify-themes](https://github.com/morpheusthewhite/spicetify-themes)
+
 (If you have any issues installing, read   
 https://github.com/khanhas/spicetify-cli/wiki/Installation#linux-and-macos   
 and other parts of their wiki.  
@@ -150,6 +156,8 @@ Throw in this one for good measure, shouldn't really do anything:
   
 Go into this repository and copy the `SolarizedDark` folder that's in   
 `spicetify` and put it in your own `~/.config/spicetify/Themes/` folder.  
+(There is probably already one in there with the same name, I made some  
+improvements though)  
   
 Select the theme we just copied in:  
 `spicetify config current_theme SolarizedDark`  
@@ -165,6 +173,9 @@ Nevertheless, if you have pure Arch, you will figure it out.
   
 Install `gtk-theme-numix-solarized`  
 `yay -S gtk-theme-numix-solarized` for Arch-based distros using `yay`  
+
+Repository:
+[numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme)
   
 Open your `bmenu` (Mod+Ctrl+b is preconfigured for that on Manjaro-i3)  
 -> System & Settings (7)  
