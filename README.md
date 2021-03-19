@@ -1,5 +1,19 @@
 # Solarized Everything
 
+Resources and dotfiles to ensure, that most, if not all of your system is in
+
+✨ SOLARIZED DARK ✨  
+
+Instructions are based on Manjaro i3, including installation, but I'll drop
+some links to the repositories.
+I'm obviously skipping the ones, where it's easy to find in the settings. 
+(IntelliJ etc.)
+
+This repo is mirrored on [GitHub](https://github.com/alindl/solarized-everything) and [GitLab](https://gitlab.com/alindl/solarized-everything).  
+
+// TODO check `~/.Xresources` colors  
+// TODO use `~/.Xresources` colors
+
 ## Table of Contents
 =================
 
@@ -17,21 +31,6 @@
          * [Dark Reader (aka. what if the Internet whole was solarized dark?)](#dark-reader-aka-what-if-the-internet-whole-was-solarized-dark)
          * [DuckDuckGo](#duckduckgo)
       * [Slack](#slack)
-
-
-Resources and dotfiles to ensure, that most, if not all of your system is in
-
-✨ SOLARIZED DARK ✨  
-
-Instructions are based on Manjaro i3, including installation, but I'll drop
-some links to the repositories.
-I'm obviously skipping the ones, where it's easy to find in the settings. 
-(IntelliJ etc.)
-
-This repo is mirrored on [GitHub](https://github.com/alindl/solarized-everything) and [GitLab](https://gitlab.com/alindl/solarized-everything).  
-
-// TODO check `~/.Xresources` colors  
-// TODO use `~/.Xresources` colors
 
 ## Ranger
 
