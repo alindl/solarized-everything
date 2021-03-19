@@ -1,5 +1,24 @@
 # Solarized Everything
 
+## Table of Contents
+=================
+
+   * [Solarized Everything](#solarized-everything)
+      * [Table of Contents](#table-of-contents)
+      * [Ranger](#ranger)
+      * [(DOOM) Emacs](#doom-emacs)
+      * [i3(-gaps)](#i3-gaps)
+      * [~/.Xresources](#xresources)
+      * [dunst](#dunst)
+      * [Spotify (using spicetify-cli)](#spotify-using-spicetify-cli)
+      * [GtK](#gtk)
+      * [Firefox](#firefox)
+         * [Theme](#theme)
+         * [Dark Reader (aka. what if the Internet whole was solarized dark?)](#dark-reader-aka-what-if-the-internet-whole-was-solarized-dark)
+         * [DuckDuckGo](#duckduckgo)
+      * [Slack](#slack)
+
+
 Resources and dotfiles to ensure, that most, if not all of your system is in
 
 ✨ SOLARIZED DARK ✨  
@@ -8,6 +27,8 @@ Instructions are based on Manjaro i3, including installation, but I'll drop
 some links to the repositories.
 I'm obviously skipping the ones, where it's easy to find in the settings. 
 (IntelliJ etc.)
+
+This repo is mirrored on [GitHub](https://github.com/alindl/solarized-everything) and [GitLab](https://gitlab.com/alindl/solarized-everything).  
 
 // TODO check `~/.Xresources` colors  
 // TODO use `~/.Xresources` colors
