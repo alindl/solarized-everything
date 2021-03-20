@@ -28,7 +28,7 @@ This repo is mirrored on [GitHub](https://github.com/alindl/solarized-everything
       * [GtK](#gtk)
       * [Firefox](#firefox)
          * [Theme](#theme)
-         * [Dark Reader (aka. what if the Internet whole was solarized dark?)](#dark-reader-aka-what-if-the-internet-whole-was-solarized-dark)
+         * [Dark Reader (aka. what if the whole Internet was solarized dark?)](#dark-reader-aka-what-if-the-whole-internet-was-solarized-dark)
          * [DuckDuckGo](#duckduckgo)
       * [Slack](#slack)
 
@@ -218,7 +218,7 @@ There are solarized dark themes, but I don't like the color mapping of
 the ones I tested. I use the add-on [Zen Fox](https://addons.mozilla.org/firefox/addon/zen-fox/) instead  
 Install that and of course, switch from light to dark.  
 
-### Dark Reader (aka. what if the Internet whole was solarized dark?)
+### Dark Reader (aka. what if the whole Internet was solarized dark?)
 You may already know [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader), with which you can change the  
 Internet to be in dark mode. But did you know,   
 that you can change the color scheme?  
