@@ -35,6 +35,7 @@ This repo is mirrored on [GitHub](https://github.com/alindl/solarized-everything
 ## Ranger
 
 Find your `rc.conf` file. It's probably in `~/.config/ranger/rc.conf`.  
+If it isn't, do a `ranger --copy-config=all` to make them.
 Look for this line(around line number 100): `set colorscheme default`  
 or whatever theme is chosen instead of `default` and change it to   
 `set colorscheme solarized`  
@@ -59,7 +60,12 @@ Close to the end of the file, you should find something that looks like
 the following lines, but with differend hex values or even stuff like `color0` or `background`  
 Obviously, change it to those values:  
 
+
 ```
+bar {
+
+...
+
     colors {
 
      separator  #93a1a1
@@ -74,6 +80,10 @@ Obviously, change it to those values:
     }
 }
 
+```
+...
+
+```
 
 # Theme colors
 # class                   border  backgr. text    indic.  child_border
@@ -86,9 +96,25 @@ Obviously, change it to those values:
   client.background       #2B2C2B
 ```
 
+## xfce4-terminal
+
+https://github.com/sgerrand/xfce4-terminal-colors-solarized
+
+`~/.config/xfce4/terminal/terminalrc`
+
+```
+[Configuration]
+ColorCursor=#93a1a1
+ColorForeground=#839496
+ColorBackground=#002b36
+ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#839496;#6c71c4;#93a1a1;#fdf6e3
+```
+
+
 
 ## ~/.Xresources
 
+If you don't have this file, just `touch ~/.Xresources`.
 The title says it all, you need to change your file,  
 so these values should look like this:  
 (This is not the whole file, just the lines that should be changed.  
@@ -196,6 +222,9 @@ Install `gtk-theme-numix-solarized`
 
 Repository:
 [numix-solarized-gtk-theme](https://github.com/Ferdi265/numix-solarized-gtk-theme)
+
+`xfconf-query -c xsettings -p /Net/ThemeName -s "NumixSolarizedDarkCyan"`
+
   
 Open your `bmenu` (Mod+Ctrl+b is preconfigured for that on Manjaro-i3)  
 -> System & Settings (7)  
