@@ -279,7 +279,7 @@ Background Color:                                     #002b36
 Header Color:                                         #073642 
 Result Title Color:                                   #fdf6e3
 Result Visited Title Color:                           #93a1a1
-Result Description Color:                             #839496
+Result Snippet Color:                             #839496
 Result URL Color:                                     #2aa198
 Result Hover, Module, and Dropdown Background Color:  #073642
 ```
